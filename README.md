@@ -1,2 +1,3 @@
-# Curso De Python
+# Curso Python
  Todos os exercícios de Python
+ 
