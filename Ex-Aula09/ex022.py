@@ -7,8 +7,8 @@
 nome=(input('Digite o seu nome completo: '))
 print('Seu nome em maiúsculas é: {}'.format(nome.upper()))
 print('Seu nome em minúsculas é: {}'.format(nome.lower()))
-junto=''.join(nome.split())
+junto=''.join(nome.split()) #Retira os espaços entre os índices  
 print('Seu nome ao todo tem {} letras'.format(len(junto)))
-primeiro=nome.split()
+primeiro=nome.split() #Separa conjuntos de indices em uma lista 
 primeiro=primeiro[0]
-print('Seu primeiro nome é {} e ele tem {} letras'.format(primeiro,len(primeiro)))
+print('Seu primeiro nome é {} e contem {} letras'.format(primeiro,len(primeiro)))
