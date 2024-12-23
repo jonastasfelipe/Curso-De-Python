@@ -9,12 +9,12 @@ print(frase[9:13]) #Identifíca uma cadeia específica de índices
 print(frase[9:21]) #Identifíca uma cadeia específica de índices
 print(frase[9:21:2]) #O :2 salta de dois em dois os indices
 print(frase[:5]) #É a mesma coisa de 0:5 vai começar do indice 0
-print(frase[15:]) #A mesma primiça do exemplo da linha 6 e 8
+print(frase[15:]) #Começa do indice 15 até acabar os indices da variável
 print(frase[9::3]) #Vai começar do índice 9 até o final pulando 3 indices
 
 #Análise
-print(len(frase)) #len vem de length=comprimento e essa função mostra a quantidade de índices
-print(frase.count('o')) #Essa função conta quantos (o que estiver entre parenteses)
+print(len(frase)) #len vem de length=comprimento, essa função mostra a quantidade de índices
+print(frase.count('o')) #Essa função conta o que estiver entre parenteses
 print(frase.count('o',0,13)) #Faz uma contagem com fatiamento
 print(frase.find('deo')) #Vai mostrar o índice que começa esse conjunto de letras
 print('Curso'in frase) #Irá mostrar se existe ou não (operador)
