@@ -1,0 +1,27 @@
+Estrutura de repetução while 
+portugol => enquanto não maçã
+                passo
+            pega
+while not maçã:
+    passo
+pega
+
+quando não sabe o limite é melhor ultilizar o while ao ínves do for 
+
+portugol => enquanto não maçã
+                se tiver chão
+                    passo
+                se tiver buraco
+                    pula
+                se tiver moeda
+                    pega
+            pega
+
+while not maçã:
+    if tiver terra:
+        passo
+    if tiver buraco:
+        pula
+    if tiver moeda:
+        pega
+pega
