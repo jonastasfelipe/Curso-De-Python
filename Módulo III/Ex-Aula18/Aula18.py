@@ -35,6 +35,7 @@ print('\n')"""
 print('Exemplo prático')
 galera = list()
 dado = list()
+totmai = totmen = 0 #Contadores
 for c in range(0, 3):
     dado.append(str(input('Nome: ')))
     dado.append(int(input('Idade: ')))
