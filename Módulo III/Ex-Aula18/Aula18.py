@@ -50,4 +50,4 @@ for p in galera:
         print(f'{p[0]} é menor de idade.')
         totmen += 1 
 print(f'Temos {len(galera)} pessoas cadastradas.')
-print(f'Temos {totmai} pessoas maiores de idade e {totmen} pessoas menores de idade.')
+print(f'Temos {totmai} pessoas maiores de idade e {totmen} pessoas menores de idade.') #a
